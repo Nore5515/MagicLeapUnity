@@ -9,6 +9,7 @@
     }
   ],
   "dependencies": {
+    "com.magicleap.appsim": "file:/Users/noah/MagicLeap/tools/unity/v1.5.0/com.magicleap.appsim.tgz",
     "com.magicleap.unitysdk": "1.7.0",
     "com.unity.collab-proxy": "2.0.4",
     "com.unity.ide.rider": "3.0.21",

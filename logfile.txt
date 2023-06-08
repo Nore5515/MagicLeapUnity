@@ -1,0 +1,18 @@
+*** ZISimulator pid 25179 started logging at Thu Jun  8 14:35:50 2023
+143548.368 <ZISimulator:25179~1423776> 'SimulatorApp' I [SimulatorApp.cpp:131] Simulator starting
+143550.501 <ZISimulator:25179~1423776> I [ViewportRender.cpp:120] Initializing viewport renderer's gfx system
+143550.735 <ZISimulator:25179~1423776> I [ViewportRender.cpp:169] OpenGL Version: 4.1 Metal - 83
+143551.072 <ZISimulator:25179~1423776> I [SimulatorApp.cpp:433] Computing initial framebuffer scale to: 2.000000
+*** ZIServer pid 25169 started logging at Thu Jun  8 14:35:51 2023
+143551.333 <ZIServer:25169~1423697> E [message_lite.cc:134] Can't parse message of type "ml.vds.RegisterSparseDevice" because it is missing required fields: sparse_device_data_address
+*** ZIServer pid 25169 started logging at Thu Jun  8 14:35:51 2023
+143546.234 <ZIServer:25169~1423697> 'Run' I [VirtualDeviceServerApplication.cpp:119] Zero Iteration Server Version: 3.5 (built Apr 10 2023), Protocol: 17
+143546.273 <ZIServer:25169~1423697> 'Initialize' I [VirtualDeviceServerApplication.cpp:104] Server 'default' [25169] running at SOCKET:localhost:57830 on macOS Version 13.2.1 (Build 22D68) arm64
+143551.333 <ZIServer:25169~1423697> E [MessageUtils.h:306] invalid data event address
+*** Unity pid 24793 started logging at Thu Jun  8 14:35:51 2023
+143551.333 <Unity:24793~ZISimulatorPerip> E [MessageUtils.h:213] got protocol error from ml.vds.RegisterSparseDevice: invalid data event address
+*** ZISystem pid 25172 started logging at Thu Jun  8 14:42:12 2023
+143547.216 <ZISystem:25172~1423737> 'ZISystemApplication' I [ZISystemApplication.cpp:61] System starting
+144212.367 <ZISystem:25172~PermissionsSpars> I [PermissionsSparseDevice.cpp:459] Initialized permissions from file /Users/noah/MagicLeap/mlsdk/v1.3.0-dev1//data/ml_permissions.json
+144216.939 <ZISimulator:25179~1423776> I [ViewportRender.cpp:217] Shutting down viewport renderer's gfx system
+144219.408 <ZIServer:25169~1423697> 'Run' I [VirtualDeviceServerApplication.cpp:154] Zero Iteration Server [25169] shutting down
